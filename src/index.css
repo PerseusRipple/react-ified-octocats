@@ -1,12 +1,92 @@
+/* Universal Rules */
+
 :root {
   font: 16px / 1 sans-serif;
 }
 
 html {
   height: 100%;
+  display: block;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  background-color: #f3f3f3;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 1.5rem;
+  padding: 2rem;
+}
+
+.top-nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-weight: bold;
+}
+
+.top-list:hover {
+  color: hotpink;
+}
+
+.top-list {
+  padding: 2rem;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+figure {
+  width: 100;
+  border-bottom: 0.05em solid black;
+}
+
+figcaption {
+  display: flex;
+  justify-content: space-between;
+  border: 0.05em solid black;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+.oct-image {
+  border: 0.05em solid black;
+  width: 90%;
+  padding: 1rem;
+}
+
+figcaption img {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 0 12px 0;
+  margin: 0 12px 22px;
+  border-bottom: 1px solid #cacaca;
+  position: relative;
+}
+
+figcaption img {
+  margin: 5px 0;
+  color: #cacaca;
 }
