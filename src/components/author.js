@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 import authorImage from '../images/person.jpeg'
 
-class author extends Component {
+class Author extends Component {
   render() {
     return (
-      <div>
+      <section>
         <figcaption>
           <p className="number">#57</p>
           <p className="item">
@@ -22,9 +22,9 @@ class author extends Component {
             />
           </a>
         </figcaption>
-      </div>
+      </section>
     )
   }
 }
 
-export default author
+export default Author

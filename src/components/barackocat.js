@@ -2,19 +2,25 @@ import React, { Component } from 'react'
 
 import barackImage from '../images/baracktocat.jpg'
 
-class baracktocat extends Component {
+class Baracktocat extends Component {
   render() {
     return (
-      <div>
+      <section>
         <figure>
-          <img src={barackImage} alt="Baracktocat" />
+          <img
+            class="oct-image"
+            height="424"
+            width="424"
+            src={barackImage}
+            alt="Baracktocat"
+          />
         </figure>
         <figcaption>
           <p>the Baracktocat</p>
         </figcaption>
-      </div>
+      </section>
     )
   }
 }
 
-export default baracktocat
+export default Baracktocat

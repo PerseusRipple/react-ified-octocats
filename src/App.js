@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import logo from './images/logo.png'
+import Logo from './components/logo'
 
 import Baracktocat from './components/barackocat'
 
@@ -11,20 +11,27 @@ class App extends Component {
     return (
       <>
         <Baracktocat />
+        <Author />
         <Baracktocat />
+        <Author />
         <Baracktocat />
+        <Author />
         <Baracktocat />
+        <Author />
         <Baracktocat />
+        <Author />
         <Baracktocat />
+        <Author />
         <Baracktocat />
         <Author />
       </>
     )
   }
 }
+
 export default App
 
-//       <div>
+//       <section>
 //         <header>
 //           <img class="logo" src={logo} alt="Github Octodex Logo" />
 //           <nav>
@@ -290,7 +297,7 @@ export default App
 //             </figcaption>
 //           </figure>
 //         </main>
-//       </div>
+//       </section>
 
-//   }
-// }
+//
+//
